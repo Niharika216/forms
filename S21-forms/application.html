@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button><a href="./enrollment.html">Back</a></button>
+    <h1 style="text-align: center;">Admission Form</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div>
+          <label for="fName">First Name</label>
+          <input type="text" id="fName" />
+          <label for="lName">Last Name</label>
+          <input type="text" id="lName" />
+        </div>
+        <div>
+          <label for="mail">Email Addess</label>
+          <input type="email" id="mail" />
+        </div>
+        <div>
+          <label for="gender">Gender</label>
+          <select name="" id="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Not To Say</option>
+          </select>
+        </div>
+        <div>
+          <label for="nationality">Nationality</label>
+          <input id="nationality" type="text" />
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <textarea id="address"></textarea>
+        </div>
+        <div>
+          <label for="pNum">Phone Number</label>
+          <input id="pNum" type="number" />
+        </div>
+        <div>
+          <label for="pName">Parent/Guardian Name:</label>
+          <input id="pName" type="text" />
+        </div>
+        <div>
+          <label for="gNum">Parent/Guardian Contact Number:</label>
+          <input id="gNum" type="number" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Academic Information</legend>
+        <div>
+          <label for="currentSchool">Current School Name:</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="currentGrade">Current Grade Level:</label>
+          <input id="currentGrade" type="text" />
+        </div>
+        <div>
+          <label>Previous Schools Attended (if applicable)</label>
+          <label for="scoolName">School Name:</label>
+          <input id="scoolName" type="text" />
+          <label for="grade">Grade Levels Attended:</label>
+          <input id="grade" type="number" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Course Information</legend>
+        <div>
+          <label for="ag">Applying For Grade</label>
+          <input id="ag" type="text" />
+        </div>
+        <div>
+          <label for="pi">Program of Interest </label>
+          <input id="pi" type="text" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <div>
+          <label>Extracurricular Activities</label>
+          <label for="sports">Sports</label>
+          <input id="sports" type="text" />
+          <label for="club">Clubs</label>
+          <input id="clubs" type="text" />
+          <label for="arts">Arts</label>
+          <input id="arts" type="text" />
+          <label for="other">Other</label>
+          <input id="other" type="text" />
+        </div>
+        <div>
+          <label for="hobbies">Hobbies and Interests:</label>
+          <input id="hobbies" type="text" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Declaration</legend>
+        <p>
+          I hereby declare that the information provided in this application is
+          true and accurate to the best of my knowledge.
+        </p>
+        <div>
+            <label for="sign">Applicant's Signature:</label>
+            <input id="sign" type="text">
+            <label for="date">Date</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="pSign">Parent/Guardian's Signature: </label>
+            <input id="pSign" type="text">
+            <label for="date">Date</label>
+            <input type="date">
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
